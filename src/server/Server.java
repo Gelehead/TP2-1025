@@ -2,8 +2,7 @@ package server;
 
 
 import javafx.util.Pair;
-import server.models.Course;
-import server.models.RegistrationForm;
+import server.models.*;
 
 import java.io.*;
 import java.net.ServerSocket;
@@ -134,7 +133,7 @@ public class Server {
      * @param cmd la commande (INSCRIRE ou CHARGER) que l on va traiter
      * @param arg les parametres de cette fonction
      */
-    public void handleEvents(String cmd, String arg) throws IOException, ClassNotFoundException{
+    public void handleEvents(String cmd, String arg) {
         if (cmd.equals(REGISTER_COMMAND)) {
             handleRegistration();
         } else if (cmd.equals(LOAD_COMMAND)) {
@@ -146,12 +145,12 @@ public class Server {
      Lire un fichier texte contenant des informations sur les cours et les transofmer en liste d'objets 'Course'.
      La méthode filtre les cours par la session spécifiée en argument.
      Ensuite, elle renvoie la liste des cours pour une session au client en utilisant l'objet 'objectOutputStream'.
+     La méthode gère les exceptions si une erreur se produit lors de la lecture du fichier ou de l'écriture de l'objet dans le flux.
      @param arg la session pour laquelle on veut récupérer la liste des cours
-     @throws Exception si une erreur se produit lors de la lecture du fichier ou de l'écriture de l'objet dans le flux
      */
-    public void handleLoadCourses(String arg) throws IOException{
+    public void handleLoadCourses(String arg) {
         ArrayList<Course> courses = new ArrayList<>();
-        StringBuilder coursesString = new StringBuilder();
+        String coursesString = "";
         try {
             File cours = new File("./data/cours.txt");
             Scanner reader = new Scanner(cours);
@@ -162,10 +161,10 @@ public class Server {
                 courses.add(course);
             }
             reader.close();
-            for (int i = courses.size(); i == 0 ; i--){
-                coursesString.append(courses.get(i).toString()).append("\n");
+            for (int i = courses.size(); i > 0 ; i--){
+                coursesString += courses.get(i).toString() + "\n";
             }
-            objectOutputStream.writeUTF(coursesString.toString());
+            objectOutputStream.writeUTF(coursesString);
         } catch (IOException e) {
             System.out.println("Error : ");
             e.printStackTrace();
@@ -175,9 +174,9 @@ public class Server {
     /**
      Récupérer l'objet 'RegistrationForm' envoyé par le client en utilisant 'objectInputStream', l'enregistrer dans un fichier texte
      et renvoyer un message de confirmation au client.
-     @throws Exception si une erreur se produit lors de la lecture de l'objet, l'écriture dans un fichier ou dans le flux de sortie.
+     La méthode gére les exceptions si une erreur se produit lors de la lecture de l'objet, l'écriture dans un fichier ou dans le flux de sortie.
      */
-    public void handleRegistration() throws IOException, ClassNotFoundException{
+    public void handleRegistration() {
         String inscriptionString = "";
         try {
             RegistrationForm input = (RegistrationForm) objectInputStream.readObject();
@@ -190,7 +189,11 @@ public class Server {
         } catch (IOException e) {
             System.out.println(" Error : ");
             e.printStackTrace();
+        } catch (ClassNotFoundException e) {
+            throw new RuntimeException(e);
         }
+
+    }
 
     }
 }
