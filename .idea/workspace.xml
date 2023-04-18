@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="46ec34d4-6ffc-4ce1-a48c-50eea14b1ce3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/IFT1025-TP2-server/src/main/java/client/JavaFx/ClientApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IFT1025-TP2-server/src/main/java/client/JavaFx/ClientController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IFT1025-TP2-server/src/main/java/client/standard/ClientLauncher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IFT1025-TP2-server/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IFT1025-TP2-server/src/main/java/utils/FilesManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IFT1025-TP2-server/src/main/resources/AppTest.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IFT1025-TP2-server" beforeDir="false" afterPath="$PROJECT_DIR$/IFT1025-TP2-server" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IFT1025-TP2-server/src/main/java/server/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/IFT1025-TP2-server/src/main/java/server/Server.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IFT1025-TP2-server/src/main/java/server/data/inscription.txt" beforeDir="false" afterPath="$PROJECT_DIR$/IFT1025-TP2-server/src/main/java/server/data/inscription.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IFT1025-TP2-server/src/test/java/server/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/IFT1025-TP2-server/src/test/java/server/AppTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="46ec34d4-6ffc-4ce1-a48c-50eea14b1ce3" name="Changes" comment="Added the correct module back" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -134,9 +122,21 @@
       <workItem from="1681332032252" duration="111000" />
       <workItem from="1681332408117" duration="11000" />
     </task>
+    <task id="LOCAL-00001" summary="Added the correct module back">
+      <created>1681781665462</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1681781665462</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added the correct module back" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added the correct module back" />
   </component>
 </project>
