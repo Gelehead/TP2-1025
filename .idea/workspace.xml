@@ -11,26 +11,11 @@
       <change afterPath="$PROJECT_DIR$/IFT1025-TP2-server/src/main/java/module-info.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/IFT1025-TP2-server/src/main/java/utils/FilesManager.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/IFT1025-TP2-server/src/main/resources/AppTest.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/TP2_1025.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/TP2_1025.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App_TP2_1025/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App_TP2_1025/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App_TP2_1025/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App_TP2_1025/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App_TP2_1025/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App_TP2_1025/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App_TP2_1025/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App_TP2_1025/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App_TP2_1025/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App_TP2_1025/src/main/JFX/jfx/app_tp2_1025/HelloApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App_TP2_1025/src/main/JFX/jfx/app_tp2_1025/HelloController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App_TP2_1025/src/main/JFX/module-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App_TP2_1025/src/main/resources/jfx/app_tp2_1025/App.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backup/App.fxml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/IFT1025-TP2-server/src/main/java/server/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/IFT1025-TP2-server/src/main/java/server/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IFT1025-TP2-server/src/main/java/server/data/inscription.txt" beforeDir="false" afterPath="$PROJECT_DIR$/IFT1025-TP2-server/src/main/java/server/data/inscription.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/IFT1025-TP2-server/src/test/java/server/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/IFT1025-TP2-server/src/test/java/server/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
